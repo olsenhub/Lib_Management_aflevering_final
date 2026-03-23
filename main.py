@@ -5,20 +5,20 @@ from models.library import Library
 
 
 def show_menu():
-    print("\nOlsens Library Management Services")
-    print("1. Add Book")
-    print("2. Add EBook")
-    print("3. Add Member")
-    print("4. Remove Book")
-    print("5. Remove Member")
-    print("6. Update Book")
-    print("7. Update Member")
-    print("8. Issue Book")
-    print("9. Return Book")
+    print("\n\n\nOlsens Library Management Services\n")
+    print("1.  Add Book")
+    print("2.  Add EBook")
+    print("3.  Add Member")
+    print("4.  Remove Book")
+    print("5.  Remove Member")
+    print("6.  Update Book")
+    print("7.  Update Member")
+    print("8.  Issue Book")
+    print("9.  Return Book")
     print("10. Display Books")
     print("11. Display Members")
     print("12. Search Books")
-    print("13. Exit")
+    print("13. Exit\n")
 
 
 def main():

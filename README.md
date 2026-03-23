@@ -30,3 +30,10 @@ Polymorphism bliver vist gennem `display_info()`, fordi metoden bruges i flere k
 - `main.py` styrer menuen
 - `models/` indeholder klasserne
 - `tests/` indeholder tests
+
+## HOW TO
+Kør programmet:
+python main.py
+
+Kør tests:
+python -m pytest -v

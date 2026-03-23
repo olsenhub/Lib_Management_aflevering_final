@@ -1,5 +1,7 @@
 from models.lib_item import LibraryItem
-
+"""
+SE 'book.py' FOR DOKUMENTATION. Samme koncept her
+"""
 
 class EBook(LibraryItem):
     def __init__(self, item_id: str, title: str, author: str, file_size_mb: float):

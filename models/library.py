@@ -2,6 +2,13 @@ from models.member import Member
 
 
 class Library:
+    """ 
+    Management af bøger og lån. 
+    Her kan vi tilføje, fjerne eller opdatere info om bøger. 
+    Derudover tilføje, fjerne eller opdatere medlemmer(members).
+    Man kan også låne bøger som medlem og returnerer bøger.
+    Til sidst kan man se alle bøger og alle medlemmer samt søge på bøger(titel eller forfatter).
+    """
     def __init__(self):
         self.books = {}
         self.members = {}

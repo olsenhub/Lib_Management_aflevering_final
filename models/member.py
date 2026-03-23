@@ -1,5 +1,16 @@
 class Member:
+    """
+    Den her klasse er for members - medlemmer
+
+    ID = Unikt ID for medlem
+    navn = navn
+    borrowed_books = lånte bøger med ID vist
+    history = låne og returnerings historik
+    """
     def __init__(self, member_id: str, name: str):
+        """
+        Initialiserer et nyt medlem
+        """
         self.member_id = member_id
         self.name = name
         self.borrowed_books = []
